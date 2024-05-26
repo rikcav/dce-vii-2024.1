@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    position: sticky;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
     background: #DCF2F1;
     box-shadow: 0 3px 4px rgba(2, 15, 29, 0.242);
-    width: 100%;
+
 `; 
 
 export const Logo = styled.img`
