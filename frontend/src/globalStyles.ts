@@ -7,5 +7,10 @@ export default createGlobalStyle`
         box-sizing: border-box;
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
-}
+        color: #070F2B;
+    }
+    
+    body {
+        background-color: #FFFFFF;
+    }
 `
