@@ -6,11 +6,11 @@ export default createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         font-family: "Montserrat", sans-serif;
+        font-style: normal;
         font-weight: 400;
-        color: #070F2B;
     }
     
     body {
         background-color: #FFFFFF;
     }
-`
+`;

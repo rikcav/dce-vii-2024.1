@@ -1,23 +1,21 @@
-import { CommerceCard } from '../../components/CommerceCard';
-import { Footer } from '../../components/Footer';
-import { Header } from '../../components/Header';
-import * as C from './styles';
+import { Footer } from "../../components/Footer";
+import { Header } from "../../components/Header";
+import * as C from "./styles";
 
 function Home() {
-    return (
-        <>
-        <Header/>
+  return (
+    <C.Container>
+      <Header pageTitle="Conheça o comércio local" />
 
-        {/* Barra de Pesquisa */}
+      {/* Barra de Pesquisa */}
 
-        <CommerceCard commerceName={''} description={''}/>
+      {/*<CommerceCard commerceName={'Bosco Restaurante'} description={'Restaurante em frente a UPE e oferece uma comida muito boa'}/>
 
-        {/* Chat Bot */}
+            {/* Chat Bot */}
 
-        <Footer/>
-        </>
-    )
-
+      <Footer />
+    </C.Container>
+  );
 }
 
-export default Home
+export default Home;

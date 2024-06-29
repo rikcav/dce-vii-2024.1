@@ -4,14 +4,12 @@ export const CommerceCardContainer = styled.div`
   position: absolute;
   width: 270px;
   height: 340px;
-  left: 197px;
-  top: 388px;
   background: #365486;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px;
+  padding: 22px;
   box-sizing: border-box;
   color: #7FC7D9;
 `;
@@ -24,7 +22,7 @@ export const CommerceInfoContainer = styled.div`
 export const CommerceInfoTitle = styled.h2`
   font-size: 20px;
   font-weight: bold;
-  margin: 0;
+  padding: 35px 0;
 `;
 
 export const CommerceDescription = styled.p`
@@ -35,15 +33,15 @@ export const CommerceDescription = styled.p`
 `;
 
 export const CommerceCardButton = styled.button`
-  align-self: center;
+  align-self: end;
   background: none;
   border: none;
   color: #7FC7D9;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 20px;
   display: flex;
-  align-items: center;
-  
+  font-weight: bold;
+
   &:hover {
     text-decoration: underline;
   }
